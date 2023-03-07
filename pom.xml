@@ -4,6 +4,12 @@
   <artifactId>RestAssured_PetStore_Automation</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
+  <properties>
+        <!-- <project.java.version>1.8</project.java.version> -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!-- <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding> -->
+    </properties>
+  
     <build>
     <pluginManagement>
     
@@ -28,6 +34,7 @@
 		          <configuration>
 					  <source>1.8</source>
 					  <target>1.8</target>
+					  <encoding>${project.build.sourceEncoding}</encoding>
 				  </configuration>
 		      </plugin>
         

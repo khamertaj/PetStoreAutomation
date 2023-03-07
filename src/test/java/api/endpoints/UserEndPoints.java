@@ -12,6 +12,7 @@ import io.restassured.response.Response;
 //created to perform Create, Read, Update, Delete, request to the USER API
 public class UserEndPoints {
 	
+	
 	public static Response createUser(UserPOJO payload) {
 		
 		Response response = given()
