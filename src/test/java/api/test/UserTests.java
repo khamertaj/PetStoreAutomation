@@ -6,12 +6,11 @@ import org.testng.annotations.Test;
 
 import com.github.javafaker.Faker;
 
-import api.configtests.Configtest;
 import api.endpoints.UserEndPoints;
 import api.payload.UserPOJO;
 import io.restassured.response.Response;
 
-public class UserTests extends Configtest{
+public class UserTests {
 	
 	Faker faker;
 	UserPOJO userpayload;
