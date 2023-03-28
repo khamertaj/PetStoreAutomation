@@ -1,5 +1,9 @@
 package api.configtests;
 
+import java.util.ResourceBundle;
+
+import org.testng.annotations.BeforeSuite;
+
 public class Configtest {
 	
 	//@BeforeSuite
